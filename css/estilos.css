@@ -1,0 +1,12 @@
+*{
+    background-color: red;
+    font-size: 50px;
+}
+
+.margen{
+    margin-left: 50%;
+    margin-right: 50%;
+    padding-left: 50%;
+    position: absolute;
+    
+}

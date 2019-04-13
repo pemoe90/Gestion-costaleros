@@ -1,5 +1,5 @@
 <?php
-require 'views/eliminar.view.php';
+require 'views/buscar.view.php';
 
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
@@ -20,9 +20,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
         echo "No existe el costalero";
     }
     else{
-        echo '<table>';
+        echo '<table class="table">';
         echo '<tr>';
-        echo '<td>Dni</td> <td>Nombre</td> <td>altura</td> <td>trabajadera</td> </tr>';
+        echo '<td>DNI</td> <td>Nombre</td> <td>Altura</td> <td>Trabajadera</td> </tr>';
         echo '<tr> <td>' . $resultado[1] .'</td> <td>' . $resultado[2] .'</td> <td>' . $resultado[3] .'</td> <td>' . $resultado[4] .'</td> </tr>';
         echo '</table>';
     }

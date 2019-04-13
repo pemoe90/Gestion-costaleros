@@ -22,9 +22,9 @@ else{
     }
 }*/
 
-echo '<table>';
+echo '<table class="table">';
 echo '<tr>';
-echo '<td>Dni</td> <td>Nombre</td> <td>altura</td> <td>trabajadera</td> </tr>';
+echo '<td>DNI</td> <td>Nombre</td> <td>Altura</td> <td>Trabajadera</td> </tr>';
 while($resultado = $statement->fetch()){
     echo '<tr> <td>' . $resultado[1] .'</td> <td>' . $resultado[2] .'</td> <td>' . $resultado[3] .'</td> <td>' . $resultado[4] .'</td> </tr>';
 }
